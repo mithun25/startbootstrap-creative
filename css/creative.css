@@ -9,7 +9,7 @@ html {
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: Source Sans Pro; }
 
 hr {
   max-width: 50px;
@@ -238,7 +238,7 @@ ul#how-it-works {
 
 ul#how-it-works li {
   float: left;
-  margin-left: 150px;
+  margin-left: 125px;
   text-align: center; }
 
 span.icn {
@@ -260,3 +260,12 @@ span.icn {
 
 #how-it-works .apparel .icn {
   background-position: 0 -240px; }
+
+ul#how-it-works li::after {
+  position: absolute;
+  left: 140px;
+  height: 1px;
+  width: 80px;
+  border-bottom: 1px dashed #666;
+  content: '';
+  top: 70px; }
