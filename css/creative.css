@@ -234,12 +234,14 @@ header.masthead {
 ul#how-it-works {
   padding: 0;
   margin: 20px;
-  list-style: none; }
+  list-style: none;
+  overflow: hidden; }
 
 ul#how-it-works li {
   float: left;
   margin-left: 125px;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
 
 span.icn {
   background: url("/img/iucons.png");
