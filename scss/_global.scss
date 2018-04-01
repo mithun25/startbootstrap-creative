@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: Source Sans Pro;
+  @include serif-font;
 }
 
 hr {
