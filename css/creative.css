@@ -274,3 +274,6 @@ ul#how-it-works li::after {
 
 .f-left {
   float: left; }
+
+.infinitem {
+  width: 1000%; }
