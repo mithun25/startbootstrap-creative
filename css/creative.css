@@ -231,5 +231,46 @@ header.masthead {
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
 
+ul#how-it-works {
+  padding: 0;
+  margin: 20px;
+  list-style: none;
+  overflow: hidden; }
+
+ul#how-it-works li {
+  float: left;
+  margin-left: 125px;
+  text-align: center;
+  position: relative; }
+
+span.icn {
+  background: url("/img/iucons.png");
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 10px auto;
+  background-size: 120px; }
+
+#how-it-works .cotton .icn {
+  background-position: 0 -360px; }
+
+#how-it-works .yarn .icn {
+  background-position: 0 -120px; }
+
+#how-it-works .stitch .icn {
+  background-position: 0 0px; }
+
+#how-it-works .apparel .icn {
+  background-position: 0 -240px; }
+
+ul#how-it-works li::after {
+  position: absolute;
+  left: 140px;
+  height: 1px;
+  width: 80px;
+  border-bottom: 1px dashed #666;
+  content: '';
+  top: 70px; }
+
 .f-left {
   float: left; }
