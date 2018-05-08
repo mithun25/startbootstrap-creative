@@ -276,7 +276,9 @@ ul#how-it-works li::after {
   float: left; }
 
 .infinitem {
-  width: 1000%; }
+  width: auto;
+  height: 250px; }
 
 #infinite-marquee {
-  overflow: hidden; }
+  overflow: hidden;
+  height: 250px; }
