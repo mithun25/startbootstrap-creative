@@ -277,3 +277,6 @@ ul#how-it-works li::after {
 
 .infinitem {
   width: 1000%; }
+
+#infinite-marquee {
+  overflow: hidden; }
