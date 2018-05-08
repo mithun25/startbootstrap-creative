@@ -71,10 +71,14 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
+
+})(jQuery); // End of use strict
+
+$(document).ready(function(){
   window.mq = $("#infinite-marquee").marquee({
     delayBeforeStart: 0,
     duration: 20000,
-    pauseOnHover: true
+    pauseOnHover: true,
+    duplicated: true
   });
-
-})(jQuery); // End of use strict
+});
